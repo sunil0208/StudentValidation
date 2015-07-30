@@ -1,0 +1,126 @@
+/* CSS Document */
+
+
+body
+{
+	padding:0px;
+	margin:0px;
+}
+
+.headtext 
+{
+	left: 53px;
+	position: relative;
+}
+
+.wraper
+{
+	position:absolute;
+	hight:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background-color:#5698D1;
+	display: block;
+    top:0; 
+	right:0;
+    bottom:0; 
+	left:0;
+}
+
+.warn
+{
+    text-align: center;
+    color: rgb(247, 10, 37);
+    font-style: italic;
+    font-size: 16px;
+}
+
+.header
+{
+	display:block;
+	top: 0Px;
+	background-color:#221768;
+	position:absolute;
+	width:100%;
+}
+
+ul
+{
+	list-style-type: none;
+	align: center;
+	
+}
+
+h1
+{
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align:center;
+}
+
+.logo
+{
+	border-radius: 100%;
+	float:left;
+	position: absolute;
+    margin-left: 408px;
+	margin-top: 14px;
+}
+
+
+.box
+{
+	height: 350px;
+	width:330px;
+	position: absolute;
+	margin-top: 148px;
+	margin-left: 500;
+	padding: 10px;
+	background-color:#4486C6;
+	border-radius: 25px;
+}
+
+.box:hover
+{
+	border-bottom: 2px solid #666666;
+	border-top: 2px solid #666666;
+	 cursor:pointer;
+}
+
+li
+{
+	position: relative;
+	margin-left: 40px;
+}
+#text
+{
+	top: 50px;
+	left: -40px;
+}
+
+.footer
+{
+	text-align:center;
+	color:#FFFFFF;
+	display:block;
+    background-color: #221768;
+	width:100%;
+	hight:20px;
+	margin-bottom:0px;
+	padding: 0px;
+	position:absolute;
+    right:0;
+    bottom:0; 
+	left:0;
+}
+input[type="text"] {
+    height: 34px;
+    text-align:center;
+}
+
+input[type="password"] {
+    height: 34px;
+    text-align:center;
+}
+

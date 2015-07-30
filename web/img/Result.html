@@ -1,0 +1,46 @@
+
+<!-- saved from url=(0071)file:///C:/Users/Pratik/Desktop/sachin%20design/LoginPage%20Sachin.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	
+	<link type="text/css" rel="stylesheet" href="./Result_files/LoginPage Design.css">
+ 		<title>Result</title>
+ 	</head>
+ 	
+ 	<body>
+	<div class="wraper">
+		<div class="header">
+				<img class="logo" src="./Result_files/logo.png" height="100px" width="100px">
+			<h1 class="headtext">Result Viewer</h1>
+		</div>
+		
+		<div class="box">  	
+			<form method="post" action="file:///C:/login">
+			<h1>DWIT</h1>
+			<ul>
+					<li><input type="text" name="Username" placeholder="Username" required=""></li>
+					<li><p> </p></li>
+					<li><input type="password" name="Password" placeholder="Password" required=""></li>
+					<li><p> </p></li>
+					<li><input type="submit" value="Login"></li>
+					
+			</ul>
+			</form>
+			
+			
+			
+			<c:if test="${Result==&#39;failed&#39;}">
+			<ul>
+				<li id="text"><p> </p></li>
+				<li id="text"><p> </p></li>
+				<li id="text"><p class="warn">Login Failed Username and Password Did Not Match</p></li>
+			</ul>				
+			</c:if>
+			
+			</div>
+		
+		<div class="footer">
+			<p> Best Of Luck </p>
+		</div>
+	</div>			
+ 	
+</body></html>
